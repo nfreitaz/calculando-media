@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial scale=1.0" />
+
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Combo&display=swap" rel="stylesheet">
+
+    <title>Calculando média</title>
+</head>
+
+<body>
+    <header>
+        <h1>Calculando média</h1>
+    </header>
+    <main>
+        <div class="imagem">
+            <figure>
+                <img src="./Imagens/undraw_Certification_re_ifll.png" alt="">
+            </figure>
+        </div>
+        <h3>Como foi seu semestre? </h3>
+        <div class="formulario">
+            <form>
+                <label for="nota1">Digite sua primeira nota:</label>
+                <input type="text" id="nota1" name="nota1" placeholder="Nota 01">
+                <label for="nota2">Digite sua segunda nota:</label>
+                <input type="text" id="nota2" name="nota2" placeholder="Nota 02">
+                <label for="nota3">Digite sua terceira nota:</label>
+                <input type="text" id="nota3" name="nota3" placeholder="Nota 03">
+            </form>
+            <button class="button" type="submit" onclick="calculaMedia()"> Calcular</button></p>
+
+        </div>
+        <div>
+            <h2 id="notaFinal"></h2>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
