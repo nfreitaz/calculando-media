@@ -2,3 +2,7 @@
 
 Projeto utilizando HTML, CSS e JavaScript.
 Cálculo de média simples, para treinar e executar interações utilizando JavaScript.
+
+
+#Alura
+#ImersaoDev
